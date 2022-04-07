@@ -5,12 +5,11 @@ _I have written this text in Italics_
 
 **I have written this text in Bold**
 
-[Link](https://github.com/mohakvni/cse15l-lab-reports.git)      > I love CSE-15L     
+[Link](https://github.com/mohakvni/cse15l-lab-reports.git)
 
-![Image](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)     Grocery List:
-* Apple
-* Banana
-* Oranges       
+![Image](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+> I love CSE-15L
 
 Grocery List:
 * Apple
