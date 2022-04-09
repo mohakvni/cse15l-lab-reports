@@ -2,7 +2,7 @@
 
 In this Lab Report, I am going to describe how we can log onto our course specific account _ieng6_ and run some basic **ssh** and **scp** commands. I am going to be describing 6 steps, with detailed description and screenshots for each step.
 
-## Step 1 - Installing VScode
+## _Step 1 - Installing VScode_
 
 The first step is Installing VScode. You can download VScode at [this](https://code.visualstudio.com/download) link. 
 
@@ -11,7 +11,7 @@ Once downloaded, install and run VScode, and you should see a basic screen as sh
 
 ![image](./Lab-report-1-materials/VScode-intial.png)
 
-## Step 2 - Remotely Connecting
+## _Step 2 - Remotely Connecting_
 
 # Step 2.1 - Finding your login details
 
@@ -34,5 +34,19 @@ Open up Visual Studio Code. On the toolbar at the top of your screen, you should
 
 ![image](./Lab-report-1-materials/ssh-login.png)
 
-## Step 3 - Trying some commands
+## _Step 3 - Trying some commands_
+
+Now let us try running some of basic commands while we are connected to our remote machine. Some of the basic commands you can try are:
+* `ls` --> Lists all files
+* `cd <directory name>` --> Changes the directory to mentioned directory
+* `ls -a` --> Lists all hidden files
+* `cat <location/filename>` --> used to concatenate files
+
+Following is a screenshot of me running some basic commands on my terminal
+
+![image](./Lab-report-1-materials/basic-commands.png)
+
+## _Step 4 - Moving files with scp__
+
+
 
