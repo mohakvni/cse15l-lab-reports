@@ -2,6 +2,8 @@
 
 In this Lab Report, I am going to describe how we can log onto our course specific account _ieng6_ and run some basic **ssh** and **scp** commands. I am going to be describing 6 steps, with detailed description and screenshots for each step.
 
+--------------------------------------------------------------------------------------------------------------
+
 ## _Step 1 - Installing VScode_
 
 The first step is Installing VScode. You can download VScode at [this](https://code.visualstudio.com/download) link. 
@@ -10,6 +12,8 @@ Clicking the link will redirect you to the page to download VScode as per your o
 Once downloaded, install and run VScode, and you should see a basic screen as shown:
 
 ![image](./Lab-report-1-materials/VScode-intial.png)
+
+--------------------------------------------------------------------------------------------------------------
 
 ## _Step 2 - Remotely Connecting_
 
@@ -34,6 +38,8 @@ Open up Visual Studio Code. On the toolbar at the top of your screen, you should
 
 ![image](./Lab-report-1-materials/ssh-login.png)
 
+--------------------------------------------------------------------------------------------------------------
+
 ## _Step 3 - Trying some commands_
 
 Now let us try running some of basic commands while we are connected to our remote machine. Some of the basic commands you can try are:
@@ -46,9 +52,21 @@ Following is a screenshot of me running some basic commands on my terminal
 
 ![image](./Lab-report-1-materials/basic-commands.png)
 
-## __Step 4 - Moving files with scp__
+--------------------------------------------------------------------------------------------------------------
 
-## __Step 5 - Setting an ssh Key__
+## _Step 4 - Moving files with scp_
+
+You can transfer any file over to the remote machine using the **scp** command. This can be donw in the following way : `scp <filename> cs15lsp22zz@ieng6.ucsd.edu`. It will prompt you to enter your password followed by transfer of file. You can even mention the directory you want to move it to on the remote machine by adding the location in front of the remote machine username. For example:
+`scp <filename> cs15lsp22zz@ieng6.ucsd.edu/:~/test1`
+
+Following attached is a screenshot of me transferring a file to a "New" Directory on my remote machine
+
+![image](./Lab-report-1-materials/scp.png)
+
+
+--------------------------------------------------------------------------------------------------------------
+
+## _Step 5 - Setting an ssh Key_
 
 So far, we have had to enter our password every time we login into the remote machine using ssh or transfer a file using ssh. This drastically increases the time for us to perform operations. One way to avoid this is to using public keys. The idea behind this is a program called **ssh-keygen**
 
@@ -80,8 +98,22 @@ So far, we have had to enter our password every time we login into the remote ma
 
 ![image](./Lab-report-1-materials/login-nopass.png)
 
-## __Step 6 - Optimizing Remote Running_
+--------------------------------------------------------------------------------------------------------------
 
+## _Step 6 - Optimizing Remote Running_
 
+Some of the ways you can optimize your remote running experience are: 
+
+* You can use the **up** or **down** arrow keys in your terminal to navigate to the most recent commands you made
+* You can use the **tab** key to auto-complete the file-name/directory-name for you
+* You can directly write a command at the end **ssh** command to directly run the command for you after logging in. For example `ssh cs15lsp22asr@ieng6.ucsd.edu "ls-a"`
+* You can use semi-colon in the terminal to run multiple commands on the same line. For example
+`cp Hello.java Other.java; javac Other.java; java Other`
+
+Following attached is the screenshot where I used the last two tips to edit a file, transfer it to remote machine, login into remote machine, and run it there
+
+![image](./Lab-report-1-materials/optimization.png)
+
+--------------------------------------------------------------------------------------------------------------
 
 
