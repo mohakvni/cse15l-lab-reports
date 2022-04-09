@@ -11,7 +11,7 @@ The first step is Installing VScode. You can download VScode at [this](https://c
 Clicking the link will redirect you to the page to download VScode as per your operating system requirement.
 Once downloaded, install and run VScode, and you should see a basic screen as shown:
 
-![image](./Lab-report-1-materials/VScode-intial.png)
+![image](./Lab-report-1-materials/VScode.png)
 
 --------------------------------------------------------------------------------------------------------------
 
