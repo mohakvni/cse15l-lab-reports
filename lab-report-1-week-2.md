@@ -46,7 +46,42 @@ Following is a screenshot of me running some basic commands on my terminal
 
 ![image](./Lab-report-1-materials/basic-commands.png)
 
-## _Step 4 - Moving files with scp__
+## __Step 4 - Moving files with scp__
+
+## __Step 5 - Setting an ssh Key__
+
+So far, we have had to enter our password every time we login into the remote machine using ssh or transfer a file using ssh. This drastically increases the time for us to perform operations. One way to avoid this is to using public keys. The idea behind this is a program called **ssh-keygen**
+
+# Step 5.1 - Generating public/private key pairs
+
+* In your terminal, log out of the remote server using the `exit` command.
+* Now that you are in your local machine's root directory, type the command `ssh-keygen`
+* It will prompt you to enter the location where you want to store the keys, please enter the location given in the bracket.
+* Then it will prompt you to add a paraphrase, please do input anything and press enter key. Similarly for the confirm paraphrase.
+* This shoudl generate two keys for you, public and private
+* To confirm if these exists, type `cd .ssh` in your local-machines root directory followed by `ls`. You should see the two files as shown in the screenshot
+
+![image](./Lab-report-1-materials/Keys-gen.png)
+
+# Step 5.2 - Transferring the public key
+
+* Log onto your remote machine and then list all hidden directories using `ls -a`. Check if the hidden directory **.ssh** exists or not. If not create a **.ssh** directory using `mkdir .ssh`. Now log out of your remote machine.
+
+* On your local machine, navigate to the folder containing your private and public key pairs. This is done by typing `cd .ssh` as we stored the keys in this hidden directory in the last step. List all the files in here and you should find **id_rsa.pub**
+
+* Now type the following command in the terminal of your local machine 
+`scp id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
+* Enter your password and the public key should be copied over to your remote machine as shown below
+
+![image](./Lab-report-1-materials/key-transfer.png)
+
+* Now if you try to login, it will not ask for a password as shown below
+
+![image](./Lab-report-1-materials/login-nopass.png)
+
+## __Step 6 - Optimizing Remote Running_
+
 
 
 
