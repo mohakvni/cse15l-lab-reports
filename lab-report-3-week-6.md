@@ -1,6 +1,6 @@
-# Lab Report 2 - Week 4 - Mohak Vaswani
+# Lab Report 3 - Week 6 - Mohak Vaswani
 
-In this Lab report, I will be implementing all group choices from Lab 5, providing screenshots and explaining in very brief
+In this Lab report, I will be implementing all group choices from Lab 5, providing screenshots and explaining in very brief.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -57,7 +57,7 @@ account (but not its contents) as a screenshot._
 * _Show running `git` commands to commit and push a change to
 Github while logged into your ieng6 account._
 
-    This is where I cloned the repo on my ieng6 account added a new file called `test.md`, committed the changes and pushed it to origin from my ieng6 account.
+    This is where I cloned the repo on my ieng6 account, added a new file called `test.md`, committed the changes, and pushed it to origin from my ieng6 account.
 
     ![image](./Lab-report-3-materials/part2/gitpush_ieng6.png)
 
@@ -87,7 +87,7 @@ account._
 * _Show logging into your ieng6 account after doing this and compiling
 and running the tests for your repository._
 
-    Here I ran the tests using my `Makefile` and `make` command from lab 6.
+    Here I ran the tests using my `Makefile` I made in lab 6 and `make test` command.
 
     ![image](./Lab-report-3-materials/part3/test.png)
 
