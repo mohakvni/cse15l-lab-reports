@@ -2,6 +2,10 @@
 
 In this Lab Report, I will be running 3 different snippets of code as tests for my own version of `MarkdownParse.java` and the version we reviewed in week 7.
 
+The repository I used was [mohakvni](https://github.com/mohakvni/markdown-parser)
+
+The repository I used from week 7 was [canitry](https://github.com/canitry/markdown-parser)
+
 --------------------------------------------------------------------------------------------------------------
 
 ## Snippet 1
