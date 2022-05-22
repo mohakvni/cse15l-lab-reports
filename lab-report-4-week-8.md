@@ -53,6 +53,8 @@ make: *** [test] Error 1
 
 _Week 7 Version of `MarkdownParse.java`_
 
+The test failed as we can see below
+
 ```
 [cs15lsp22asr@ieng6-202]:markdown-parser:427$ make test
 javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
@@ -100,6 +102,8 @@ public void test_snippet2() throws IOException {
 
 _My Version of `MarkdownParse.java`_
 
+The test failed as we can see below
+
 ```
 [cs15lsp22asr@ieng6-202]:markdown-parser:420$ make test
 javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
@@ -123,6 +127,8 @@ make: *** [test] Error 1
 ```
 
 _Week 7 Version of `MarkdownParse.java`_
+
+The test failed as we can see below
 
 ```
 cs15lsp22asr@ieng6-202]:markdown-parser:436$ make test
@@ -171,6 +177,8 @@ public void test_snippet3() throws IOException {
 
 _My Version of `MarkdownParse.java`_
 
+The test failed as we can see below
+
 ```
 [cs15lsp22asr@ieng6-202]:markdown-parser:420$ make test
 javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
@@ -204,6 +212,8 @@ make: *** [test] Error 1
 ```
 
 _Week 7 Version of `MarkdownParse.java`_
+
+The test failed as we can see below
 
 ```
 [cs15lsp22asr@ieng6-202]:markdown-parser:429$ make test
